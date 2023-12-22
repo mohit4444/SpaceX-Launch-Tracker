@@ -15,11 +15,11 @@ The SpaceX Launch Tracker is an interactive web application built with React, sh
 
 ## Setup and Run
 
-1. **Clone the Repository**: `git clone [repository-link]`
+1. **Clone the Repository**: `git clone https://github.com/mohit4444/SpaceX-Launch-Tracker`
 2. **Install Dependencies**: `npm install`
 3. **Run the Application**: `npm start`
 4. **Access Local**: Visit `http://localhost:3000` in your browser.
 
 ## Deployment
 
-The application is hosted on Vercel. Access it [here](deployment-link).
+The application is hosted on Vercel. Access it [here](https://spacex-launch-tracker-mohit.vercel.app/).
