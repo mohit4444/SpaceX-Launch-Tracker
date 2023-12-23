@@ -7,7 +7,7 @@ The SpaceX Launch Tracker is an interactive web application built with React, sh
 
 - **SpaceX API**: Optimized data retrieval from SpaceX API, pulling only essential fields to minimize payload size.
 - **React**: Application is built using React.
-- **State Management**: Employs React's Context API with LaunchContext for launch data and FilterContext for persisting user filters across navigation.
+- **State Management**: The implementation employs React's Context API, utilizing LaunchContext for managing launch data, which is presently only utilized within Launches.js. It is important to consider the potential future needs of other components for access to this data, as planning for scalability at this stage can significantly reduce the need for time-consuming refactoring later on. Additionally, FilterContext is integrated for persisting user filters, ensuring consistency across navigation.
 - **React Router**: Utilizes the latest React Router for smooth navigation and includes error route handling.
 - **Code Quality**: Focus on clean, modular, and reusable coding practices.
 - **User Interface and Accessibility**: Emphasizes a user-friendly and accessible interface, featuring a loading screen during data fetch, enlarged icons on hover, generic images for launches lacking specific patches, and a gradient-enhanced banner image.
